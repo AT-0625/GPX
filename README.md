@@ -4,17 +4,6 @@
 
 ---
 
-## Demo CSV Files
-
-This repository includes two CSV files used for different parts of the simulation:
-
-- `evaluation_grid.csv`: Defines the 3D grid points where the gravitational potential is calculated.  
-- `source_masses.csv`: Contains the positions and masses of the bodies generating the gravitational potential.
-
-Both files serve as input data for the simulations. Their specific purposes correspond to the information conveyed by their filenames, and the code structure reflects how each file is utilized.
-
----
-
 ## Features
 
 - Compute gravitational potential on 3D grids  
@@ -29,6 +18,17 @@ Both files serve as input data for the simulations. Their specific purposes corr
 
 - `GPX.ipynb`: Interactive notebook version for step-by-step execution  
 - `GPX.py`: Clean Python script version for direct use
+
+---
+
+## Demo CSV Files
+
+This repository includes two CSV files used for different parts of the simulation:
+
+- `evaluation_grid.csv`: Defines the 3D grid points where the gravitational potential is calculated.  
+- `source_masses.csv`: Contains the positions and masses of the bodies generating the gravitational potential.
+
+Both files serve as input data for the simulations. Their specific purposes correspond to the information conveyed by their filenames, and the code structure reflects how each file is utilized.
 
 ---
 
