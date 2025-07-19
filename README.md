@@ -11,6 +11,7 @@
 - Visualize results using Matplotlib  
 - User-driven inputs for flexibility  
 - Modular code with clear structure
+- Save data tables as `.csv` files and plots as `.png` or `.pdf` files
 
 ---
 
