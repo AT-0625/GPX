@@ -7,11 +7,11 @@
 ## Features
 
 - Compute gravitational potential on 3D grids  
-- Supports both manual input and CSV-based data loading  
+- Supports both manual input and table-based data loading (`.csv` / `.fits`)  
 - Visualize results using Matplotlib  
 - User-driven inputs for flexibility  
-- Modular code with clear structure
-- Save data tables as `.csv` files and plots as `.png` or `.pdf` files
+- Modular code with clear structure  
+- Save data tables as `.csv` or `.fits` files, and plots as `.png` or `.pdf` files
 
 ---
 
@@ -22,15 +22,16 @@
 
 ---
 
-## Demo CSV Files
+## Demo Data Files
 
-This repository includes two CSV files used for different parts of the simulation:
+This repository includes two example data files (available in **both `.csv` and `.fits` formats**) used for different parts of the simulation:
 
-- `GPX_SourceMasses.csv`: Contains the positions and masses of the bodies generating the gravitational potential.
-  
-- `GPX_EvaluationGrid.csv`: Defines the 3D grid points where the gravitational potential is calculated.  
+- `GPX_SourceMasses.csv` / `GPX_SourceMasses.fits`: Contains the positions and masses of the bodies generating the gravitational potential.  
+- `GPX_EvaluationGrid.csv` / `GPX_EvaluationGrid.fits`: Defines the 3D grid points where the gravitational potential is calculated.  
 
 Both files serve as input data for the simulations. Their specific purposes correspond to the information conveyed by their filenames, and the code structure reflects how each file is utilized.
+
+> **Note:** `.fits` files are binary and cannot be previewed on GitHub. Download and open with `Astropy`, `fv` (FITS viewer), or other astronomy tools.
 
 ---
 
@@ -45,13 +46,14 @@ No special installation required. Just clone the repo and run the notebooks/scri
 - Open `GPX.ipynb` in Google Colab or Jupyter Notebook.  
 - Run cells step-by-step.  
 - Modify inputs as needed.  
-- Alternatively, run `GPX.py` as a script in your local Python setup.
+- Alternatively, run `GPX.py` as a script in your local Python setup.  
+- When prompted for data files, you may use either `.csv` or `.fits` table formats.
 
 ---
 
 ## Status
 
-The current version reflects a completed code structure awaiting formal validation.
+The current version reflects a completed code structure with support for both `.csv` and `.fits` table formats, awaiting formal validation.
 
 ---
 
@@ -64,4 +66,3 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 ## Contact
 
 Feel free to reach out via my GitHub profile.
-
